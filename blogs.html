@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Donation for Bangladesh</title>
+    <link href="https://cdn.jsdelivr.net/npm/daisyui@4.12.14/dist/full.min.css" rel="stylesheet" type="text/css" />
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script src="https://kit.fontawesome.com/8e3d288494.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <header class="flex-nowrap fixed top-0 z-10 right-0 left-0  backdrop-blur-sm backdrop-saturate-50">
+        <!-- NavbarTop Start -->
+        <nav class="bg-gradient-to-r from-lime-50/90 to-yellow-50/80">
+            <ul class="flex items-center justify-between gap-4 md:gap-0 py-6 px-2 lg:px-32">
+                <li><a href="./blogs.html" class="lg:text-lg lg:font-semibold hover:text-gray-400"><button
+                            class="btn bg-[#B4F461] hover:bg-white  transition-all duration-500 ease-in-out lg:px-6 px-4 lg:text-lg hover:border-1 border-gray-300">Blogs</button></a>
+                </li>
+                <li><a href="./home.html"
+                        class="text-lg font-semibold lg:text-2xl lg:font-bold flex items-center justify-center gap-2 lg:gap-4"><img
+                            width="30" src="./assets/logo.png" alt="logo">Donation for Bangladesh</a></li>
+                <li>
+                    <p class="lg:text-2xl font-semibold lg:font-bold"><i class="fa-solid fa-bangladeshi-taka-sign"></i>
+                        <span id="balance-id">5000</span>
+                    </p>
+                </li>
+            </ul>
+        </nav>
+        <!-- NavbarTop End -->
+    
+        <!-- NavbarBottom Start -->
+        <div class="flex justify-center items-center lg:py-8 py-4 gap-5 border-b bg-[#F9F7F3]/70">
+            <button id="blogs-btn"
+                class="btn bg-[#B4F461] hover:bg-[#B4F461] lg:px-6 px-4 lg:text-lg hover:border-1 border-gray-300 transition-all duration-500 ease-in-out">Donation</button>
+            <button id="history-btn"
+                class="btn hover:bg-[#B4F461] hover:border-0 border-1 border-gray-300 lg:px-6 px-4 lg:text-lg transition-all duration-500 ease-in-out">History</button>
+        </div>
+        <!-- NavbarBottom End -->
+    </header>
+    <main class="lg:px-32 px-4 bg-[#FFFFFF] py-8 lg:mt-52 mt-40">
+        <section class="space-y-2 lg:space-y-4">
+            <div class="collapse collapse-arrow bg-base-200">
+                <input type="radio" name="my-accordion-2" checked="checked" />
+                <div class="collapse-title text-lg lg:text-xl font-medium">What is the Document Object Model (DOM)?
+                </div>
+                <div class="collapse-content">
+                    <p>
+                        The Document Object Model (DOM) is a programming interface for web browsers to interact with the
+                        structure and content of HTML documents. It provides a way to access and manipulate the
+                        document's
+                        elements, attributes, and text.
+                    </p>
+                </div>
+            </div>
+            <div class="collapse collapse-arrow bg-base-200">
+                <input type="radio" name="my-accordion-2" />
+                <div class="collapse-title text-lg lg:text-xl font-medium">How do you select an element from the DOM?
+                </div>
+                <div class="collapse-content">
+                    <p>
+                        Selecting an element from the DOM involves using the document object's methods and properties.
+                        You can use the `getElementById()` method to select an element by its id, the
+                        `getElementsByClassName()` method to select elements by their class name, and the
+                        `getElementsByTagName()` method to select elements by their tag name.
+                    </p>
+                </div>
+            </div>
+            <div class="collapse collapse-arrow bg-base-200">
+                <input type="radio" name="my-accordion-2" />
+                <div class="collapse-title text-lg lg:text-xl font-medium">What is event delegation in the context of the DOM, and why is it useful?</div>
+                <div class="collapse-content">
+                    <p>
+                        Event delegation is a technique where you add a single event listener to a parent element
+                        instead of
+                        individual child elements. When the event occurs on the parent element, the event handler is
+                        triggered on all descendant elements that match the event's target.
+                        This is useful when you want to handle events for multiple elements that share a common
+                        functionality.
+                    </p>
+                </div>
+            </div>
+            <div class="collapse collapse-arrow bg-base-200">
+                <input type="radio" name="my-accordion-2" />
+                <div class="collapse-title text-lg lg:text-xl font-medium">How do you manipulate an element's attributes
+                    and
+                    styles using the DOM?</div>
+                <div class="collapse-content">
+                    <p>
+                        Manipulating an element's attributes and styles using the DOM involves using the element's
+                        properties and methods.
+                        You can set the value of an element's attribute using the `setAttribute()` method, get its
+                        attribute
+                        value using the `getAttribute()` method, and remove an attribute using the `removeAttribute()`
+                        method.
+                        You can modify an element's style using the `style` property, set individual CSS properties
+                        using
+                        the dot notation (e.g., `element.style.color = "red"`), or use CSS classes and inline styles.
+                    </p>
+                </div>
+            </div>
+        </section>
+    </main>
+</body>
+
+</html>
